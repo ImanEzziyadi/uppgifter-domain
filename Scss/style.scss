@@ -1,0 +1,26 @@
+
+@import "../../bootstrap/scss/bootstrap.scss";
+ @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+ @import"./colors";
+ @import "./reset"; 
+ @import "./container"; 
+ @import "./variables"; 
+
+ 
+ * {
+    box-sizing: border-box;
+
+ }  
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+    background-color: $bady-bd;
+    font-size: $font-size;
+ }
+ 
+ h4 {
+  color: $myColor;
+ }
+ 
